@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <main class="container">
+        <div class="inner-container">
+        <!-- Navigation bar -->
+        <div  class="portfolio">Portfolio</div>
+            
+               <ul id="sidemenu">                
+                <!-- <li class="portfolio">Portfolio</li> -->
+                <li><a class="home"href="#row">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>                
+                <li><a href="#contact">Contact</a></li>
+                 <!-- <img class="icon nav"src="icons/xmark-solid.svg" color="white"> -->
+                 <a href="" class="nav-icon"> <i class="fa fa-times" onclick="closemenu()"></i>
+                </a>
+                
+                 <!-- <i class="fa-solid fa-xmark"></i> -->
+            </ul>
+            
+                <i class="fa fa-bars" onclick="openmenu()" id="bar"></i>
+            
+           
+            <!-- home-->
+            <div id="row">              
+                <div class="photo">
+                   <img src="Images/IMG_20210727_182027_928.webp"alt="image">
+                </div>
+                <div class="info">
+                    <h1>Tejasvi Mishra</h1>
+                    <h3> Frontend Developer.</h3>
+                    <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications.</p>
+                    <!-- <div class="btn">Download CV</div> -->
+                </div>           
+            </div>
+                   <hr>
+
+            <!-- About -->
+            <div id="about">
+                <h3>About me</h3>
+                <div class="personal-info">
+                   <h2>Personal Information</h2> 
+                   <div class="personal"><h4>Name: <span>Tejasvi Mishra</span></h4></div>
+                   <div class="personal"><h4>Age:<span>21</span></h4></div>
+                   <div class="personal"><h4>Nationality:<span>Indian</span></h4></div>
+                   
+                   <div class="personal"><h4>Languages Known:<span>Hindi, English</span></h4></div>
+                   <div class="personal"><h4>Phone No.:<span>+91-8303902359</span></h4></div>
+                   <div class="personal" id="addr"><h4>Address:<span class="add"> Kanpur,Uttar Pradesh-
+                    <span class ="number">208006</span></span></h4></div>
+                </div> 
+                 <div class="skills">
+                <h2>Skills</h2>
+                <div class="skill"><h4>HTML5</h4></div>
+                <div class="skill"><h4>CSS3</h4></div>
+                <div class="skill"><h4>Javascript</h4></div>
+                <div class="skill"><h4>Java</h4></div>
+                <div class="skill"><h4>Python(Basic)</h4></div>
+                <div class="skill"><h4>DSA(Basic)</h4></div>
+                 </div>    
+                          <!-- <div class="btn"><a href="">Download CV</a></div > -->
+                            <div class="btn">
+                                <button ><a href="CV_2023071122560639.pdf" target="_blank">Download CV</a></button>
+                            </div>
+                            
+            </div>
+                    <hr>
+
+                <!-- Education -->
+                <div id="education">
+                    <h3>Education Details</h3>
+                   <div class="edu-details">
+                    <div class="detail">
+                        <h4>IIMT College Of Engineering, Greater Noida(AKTU)</h4>
+                       <div class="col">
+                        <h5>B.Tech- CSE</h5>
+                        <h5>Pursuing</h5>
+                        <h5>2020-2024</h5>
+                       </div>
+                    
+                    </div>
+                    <div class="detail">
+                        <h4>Dr. Virendra Swarup 21st Century School</h4>
+                        <div class=" col">
+                            <h5>Intermediate-PCM</h5>
+                            <h5>89%</h5>
+                            <h5>2018-2019</h5>
+                        </div>  
+                         
+                    </div>
+                    <div class="detail">
+                        <h4>Dr. Virendra Swarup 21st Century School</h4>
+                        <div class="col">
+                            <h5>High School</h5>
+                            <h5>91.4%</h5>
+                            <h5>2016-2017</h5>
+                        </div>
+                                               
+                    </div>
+                   </div>
+                </div>
+                <hr>
+                <!-- Projects -->
+                <div id="projects">
+                    <h3>My Projects</h3>
+                    <div class="project-container">
+                        <div class="item">
+                            <a href="https://tejasvi2708.github.io/NFT_Preview_Card/"target="_blank">
+                                <img src="Images/project1.png" alt="image">
+                            </a>
+                           
+                        </div>
+                        <div class="item">
+                            <a href="https://tejasvi2708.github.io/Stats-preview-card-component/"target="_blank">
+                                 <img src="Images/project2.png" alt="image"></a>
+                        </div>
+                        <div class="item">
+                            <a href="https://tejasvi2708.github.io/Product-preview/"target="_blank">
+                                 <img src="Images/project3.PNG" alt="image"></a>      
+                        </div>
+                        <div class="item">
+                            <a href="https://tejasvi2708.github.io/Responsive-Summary-Report/"target="_blank">
+                                <img src="Images/project4.jpeg" alt="image">
+                            </a>
+                            
+                        </div>
+                        <div class="item">
+                            <a href="https://tejasvi2708.github.io/Profile-card-component/" target="_blank">
+                                <img src="Images/project5.jpeg" alt="image">
+                            </a>
+                           
+                        </div>
+                        <div class="item">
+                            <a href="https://tejasvi2708.github.io/Basic-Calculator/" target="_blank">
+                            <img src="Images/project6.jpeg" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                  
+                </div>
+                <hr>
+                <!-- Contact -->
+                <div id="contact">
+                    
+                   <div class="contact-left">
+                    <h3>Contact Me</h3>
+                    
+                     <div class="phone">
+                        <!-- <img class="icon" src="icons/phone.png"> -->
+                        <i class="fa fa-phone"></i>
+                        <h4>+91-8303902359</h4>
+                     </div>
+                    
+                         <div class="email">
+                          <!-- <a href=""><img class="icon" src="icons/email.png"> -->
+                          <i class="fa fa-envelope"></i>
+                          <h4>tejasvi2708@gmail.com</h4>
+                        </div>
+                    
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/tejasvi-mishra-14280a204/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            
+                            <a href="https://github.com/tejasvi2708" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>                       
+                    </div>
+                   
+                   <div class="contact-right">
+                    <h3>Contact Me</h3>
+                        <form name="submit-to-google-sheet">
+                            <input type="text"name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your message" required></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                        <span id="mssge"></span>
+                   </div>
+                </div>
+        </div>
+        
+    </main>
+    <script src="working.js"></script>
+</body>
+</html>
